@@ -22,7 +22,9 @@ public class HumanParameters {
         System.out.println("Вариант 1 (табличный):");
         System.out.println();
         System.out.println("Имя: " + name + "\n" + "Город: " + city + "\n" + "Возраст: " + age + "\n" + "Хобби: " + hobby);
-        
+        System.out.println();
+        System.out.println("Вариант 2 (текстовый):");
+       
 
 
 
