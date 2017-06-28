@@ -28,6 +28,7 @@ public class HumanParameters {
         System.out.println("Человек по имени " + name +  " живет в городе " + city + "." + " Этому человеку " +  age + " лет и любит он заниматься " +  hobby + ".");
         System.out.println();
         System.out.println("Вариант 3 (иной):");
+        System.out.println();
         System.out.println(name + " - Имя" + "\n" + city + " - Город" + "\n" + age + " - Возраст" + "\n" + hobby + " - Хобби");
 
 
