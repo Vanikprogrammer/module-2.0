@@ -20,8 +20,6 @@ public class HumanParameters {
         System.out.println("Какое Ваше хобби?");
         String hobby = r.readLine();
         System.out.println("Вариант 1 (табличный):");
-        System.out.println();
-        System.out.println("Имя: " + name + "\n" + "Город: " + city + "\n" + "Возраст: " + age + "\n" + "Хобби: " + hobby);
         
 
 
