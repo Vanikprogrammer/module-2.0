@@ -21,6 +21,11 @@ public class HumanParameters {
         String hobby = r.readLine();
         System.out.println("Вариант 1 (табличный):");
         System.out.println();
+        System.out.println("Имя: " + name + "\n" + "Город: " + city + "\n" + "Возраст: " + age + "\n" + "Хобби: " + hobby);
+        System.out.println();
+        System.out.println("Вариант 2 (текстовый):");
+        System.out.println();
+        System.out.println("Человек по имени " + name +  " живет в городе " + city + "." + " Этому человеку " +  age + " лет и любит он заниматься " +  hobby + ".");
         
 
 
