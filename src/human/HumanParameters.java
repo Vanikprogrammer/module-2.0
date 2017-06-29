@@ -10,15 +10,16 @@ import java.util.Scanner;
  */
 public class HumanParameters {
     public static void main(String[] args) throws IOException {
-        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+        Scanner sc = new Scanner(System.in);
         System.out.println("Как Вас зовут?");
-        String name = r.readLine();
+        String name = sc.nextLine();
         System.out.println("В каком городе Вы живете?");
-        String city = r.readLine();
+        String city = sc.nextLine();
         System.out.println("Сколько Вам лет? ");
-        int age = Integer.parseInt(r.readLine());
+        int age = sc.nextInt();
+        sc.nextLine();
         System.out.println("Какое Ваше хобби?");
-        String hobby = r.readLine();
+        String hobby = sc.nextLine();
         System.out.println("Вариант 1 (табличный):");
         System.out.println();
         System.out.println("Имя: " + name + "\n" + "Город: " + city + "\n" + "Возраст: " + age + "\n" + "Хобби: " + hobby);
