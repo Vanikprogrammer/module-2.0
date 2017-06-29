@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Created by 1 on 28.06.2017.
  */
 public class HumanParameters {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Как Вас зовут?");
         String name = sc.nextLine();
